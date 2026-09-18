@@ -1,0 +1,146 @@
+blue-marlin-hotel/
+│
+├── app/
+│   │
+│   ├── actions/
+│   │   ├── booking.ts
+│   │   └── contact.ts
+│   │
+│   ├── about/
+│   │   └── page.tsx
+│   │
+│   ├── book/
+│   │   └── page.tsx
+│   │
+│   ├── contact/
+│   │   └── page.tsx
+│   │
+│   ├── dining/
+│   │   └── page.tsx
+│   │
+│   ├── experiences/
+│   │   └── page.tsx
+│   │
+│   ├── gallery/
+│   │   └── page.tsx
+│   │
+│   ├── rooms/
+│   │   ├── [slug]/
+│   │   │   └── page.tsx
+│   │   └── page.tsx
+│   │
+│   ├── wellness/
+│   │   └── page.tsx
+│   │
+│   ├── weddings/
+│   │   └── page.tsx
+│   │
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+│   │
+│   ├── about/
+│   │   ├── AboutHero.tsx
+│   │   ├── AboutStory.tsx
+│   │   └── AboutHighlights.tsx
+│   │
+│   ├── booking/
+│   │   ├── BookingForm.tsx
+│   │   ├── BookingDetails.tsx
+│   │   └── BookingSuccess.tsx
+│   │
+│   ├── contact/
+│   │   ├── ContactHero.tsx
+│   │   ├── ContactDetails.tsx
+│   │   └── ContactForm.tsx
+│   │
+│   ├── dining/
+│   │   ├── DiningHero.tsx
+│   │   ├── DiningExperience.tsx
+│   │   └── DiningCTA.tsx
+│   │
+│   ├── experiences/
+│   │   ├── ExperiencesHero.tsx
+│   │   ├── WaterActivities.tsx
+│   │   ├── Excursions.tsx
+│   │   └── ExperiencesCTA.tsx
+│   │
+│   ├── gallery/
+│   │   ├── GalleryHero.tsx
+│   │   └── GalleryGrid.tsx
+│   │
+│   ├── home/
+│   │   ├── Hero.tsx
+│   │   ├── Intro.tsx
+│   │   ├── RoomsPreview.tsx
+│   │   ├── BeachExperience.tsx
+│   │   ├── DiningPreview.tsx
+│   │   ├── WellnessPreview.tsx
+│   │   ├── ExperiencesPreview.tsx
+│   │   ├── WeddingsPreview.tsx
+│   │   ├── GalleryPreview.tsx
+│   │   └── BookingCTA.tsx
+│   │
+│   ├── layout/
+│   │   ├── Header.tsx
+│   │   ├── Footer.tsx
+│   │   └── MobileMenu.tsx
+│   │
+│   ├── rooms/
+│   │   ├── RoomsHero.tsx
+│   │   ├── RoomCard.tsx
+│   │   ├── RoomGrid.tsx
+│   │   ├── RoomDetails.tsx
+│   │   ├── RoomAmenities.tsx
+│   │   └── RoomGallery.tsx
+│   │
+│   ├── ui/
+│   │   ├── Reveal.tsx
+│   │   ├── SectionHeading.tsx
+│   │   ├── Button.tsx
+│   │   └── ImageReveal.tsx
+│   │
+│   ├── wellness/
+│   │   ├── WellnessHero.tsx
+│   │   ├── Spa.tsx
+│   │   ├── Fitness.tsx
+│   │   ├── Yoga.tsx
+│   │   └── WellnessCTA.tsx
+│   │
+│   └── weddings/
+│       ├── WeddingsHero.tsx
+│       ├── WeddingExperience.tsx
+│       ├── WeddingDetails.tsx
+│       └── WeddingsCTA.tsx
+│
+├── data/
+│   ├── navigation.ts
+│   ├── rooms.ts
+│   ├── experiences.ts
+│   ├── wellness.ts
+│   ├── dining.ts
+│   ├── weddings.ts
+│   └── gallery.ts
+│
+├── lib/
+│   ├── resend.ts
+│   └── utils.ts
+│
+├── public/
+│   └── images/
+│       ├── hero/
+│       ├── rooms/
+│       ├── experiences/
+│       ├── wellness/
+│       ├── dining/
+│       ├── weddings/
+│       └── gallery/
+│
+├── .env.local
+├── next.config.ts
+├── package.json
+├── postcss.config.mjs
+├── tsconfig.json
+└── README.md

@@ -8,19 +8,19 @@ const experiences = [
     title: "On the water",
     description:
       "Kite surfing, diving, snorkelling, boat excursions and fishing along the South Coast.",
-    image: "/images/experience/water.avif",
+    image: "/images/gallery/gallery-1.avif",
   },
   {
     title: "Explore the coast",
     description:
       "Discover the landscapes, culture and wildlife surrounding Diani and the Kenyan coast.",
-    image: "/images/experience/explore.avif",
+    image: "/images/experiences/explore.avif",
   },
   {
     title: "Slow days",
     description:
       "Beach walks, warm water and unhurried afternoons with nowhere else to be.",
-    image: "/images/experience/blue-marlin-beach.avif",
+    image: "/images/experiences/blue-marlin-beach.avif",
   },
 ];
 

@@ -15,19 +15,19 @@ export const waterActivities: Experience[] = [
     title: "Diving",
     description:
       "Discover the underwater world of the Kenyan coast with opportunities to explore beneath the surface.",
-    image: "/images/experiences/diving.avif",
+    image: "/images/experiences/diving.jpg",
   },
   {
     title: "Snorkelling",
     description:
       "Explore the shallower waters and experience the marine life of the Indian Ocean.",
-    image: "/images/experiences/snorkelling.avif",
+    image: "/images/experiences/snorkelling.jpg",
   },
   {
     title: "Boat & Dhow Excursions",
     description:
       "Take to the water and experience the coastline from a traditional dhow or boat.",
-    image: "/images/experiences/dhow.avif",
+    image: "/images/experiences/dhow.jpg",
   },
   {
     title: "Deep-Sea Fishing",
@@ -42,24 +42,24 @@ export const excursions: Experience[] = [
     title: "Shimba Hills",
     description:
       "Trade the coastline for the forests and landscapes of Shimba Hills, one of Kenya's remarkable coastal destinations.",
-    image: "/images/experiences/shimba-hills.avif",
+    image: "/images/experiences/shimba-hills.jpg",
   },
   {
     title: "Mombasa & Old Town",
     description:
       "Discover the history, architecture and coastal character of Mombasa and its historic Old Town.",
-    image: "/images/experiences/mombasa.avif",
+    image: "/images/experiences/mombasa.jpg",
   },
   {
     title: "Kaya Kinondo",
     description:
       "Experience an important part of the cultural heritage of the Diani and South Coast region.",
-    image: "/images/experiences/kaya-kinondo.avif",
+    image: "/images/experiences/kaya-kinondo.jpg",
   },
   {
     title: "Colobus Conservation",
     description:
       "Learn more about the wildlife and conservation work taking place along the Kenyan coast.",
-    image: "/images/experiences/colobus.avif",
+    image: "/images/experiences/colobus.jpg",
   },
 ];

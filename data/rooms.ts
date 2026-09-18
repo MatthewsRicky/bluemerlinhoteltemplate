@@ -6,6 +6,7 @@ export type Room = {
   capacity: string;
   beds: string;
   location: string;
+  highlights: string[];
   amenities: string[];
   featuredImage: string;
   gallery: string[];
@@ -18,13 +19,18 @@ export const rooms: Room[] = [
     shortDescription:
       "A comfortable coastal stay with views towards the Indian Ocean.",
     description:
-      "Settle into an easy Diani rhythm with a comfortable room, tropical surroundings and the Indian Ocean close by.",
+      "Settle into an easy Diani rhythm with a comfortable room, tropical surroundings and the Indian Ocean close by. The Sea View Standard offers a relaxed base for couples and individual travellers exploring the South Coast.",
     capacity: "Up to 2 guests",
     beds: "Double or twin beds",
     location: "Sea view",
+    highlights: [
+      "Views towards the Indian Ocean",
+      "Comfortable coastal accommodation",
+      "Ideal for couples",
+    ],
     amenities: ["Sea view", "Private bathroom", "Air conditioning", "Wi-Fi"],
     featuredImage: "/images/rooms/seaview-standard.avif",
-    gallery: ["/images/rooms/sea-view-standard.jpg"],
+    gallery: ["/images/rooms/seaview-standard.avif"],
   },
 
   {
@@ -33,40 +39,55 @@ export const rooms: Room[] = [
     shortDescription:
       "A more spacious retreat overlooking the gardens and ocean.",
     description:
-      "Enjoy more space and a relaxed coastal atmosphere with views across the hotel's tropical setting towards the sea.",
+      "Enjoy more space and a relaxed coastal atmosphere with views across the hotel's tropical setting towards the sea. A comfortable choice for guests looking for a little more room during their Diani stay.",
     capacity: "Up to 2 guests",
     beds: "Double or twin beds",
     location: "Sea view",
+    highlights: [
+      "Sea and garden views",
+      "Spacious accommodation",
+      "Relaxed coastal setting",
+    ],
     amenities: ["Sea view", "Private bathroom", "Air conditioning", "Wi-Fi"],
-    featuredImage: "/images/rooms/sea-view-family.avif",
-    gallery: ["/images/rooms/sea-view-superior.jpg"],
+    featuredImage: "/images/rooms/sea-view-superior.avif",
+    gallery: ["/images/rooms/sea-view-superior.avif"],
   },
 
   {
     slug: "sea-view-family",
     name: "Sea View Family Room",
     shortDescription:
-      "A comfortable beachfront escape designed with families in mind.",
+      "A comfortable coastal escape designed with families in mind.",
     description:
       "Space to relax together, with the beach and the hotel's tropical surroundings providing an easy base for a family stay in Diani.",
     capacity: "Family accommodation",
     beds: "Multiple beds",
     location: "Sea view",
+    highlights: [
+      "Designed for families",
+      "Sea-facing setting",
+      "Easy access to the beach",
+    ],
     amenities: ["Sea view", "Private bathroom", "Air conditioning", "Wi-Fi"],
     featuredImage: "/images/rooms/sea-view-family.avif",
-    gallery: ["/images/rooms/sea-view-family.jpg"],
+    gallery: ["/images/rooms/sea-view-family.avif"],
   },
 
   {
     slug: "family-suite-private-pool",
     name: "Family Suite",
-    shortDescription:
-      "A two-bedroom suite with the added privacy of a private pool.",
+    shortDescription: "A two-bedroom suite with the privacy of its own pool.",
     description:
-      "Designed for families and groups seeking additional space, this two-bedroom suite includes two bathrooms and a private pool.",
+      "Designed for families and groups seeking additional space, the Family Suite combines two bedrooms and two bathrooms with the added privacy of a private pool.",
     capacity: "Family accommodation",
     beds: "Two bedrooms",
     location: "Private pool",
+    highlights: [
+      "Two bedrooms",
+      "Two bathrooms",
+      "Private swimming pool",
+      "Ideal for families or groups",
+    ],
     amenities: [
       "Private pool",
       "Two bedrooms",
@@ -75,7 +96,7 @@ export const rooms: Room[] = [
       "Wi-Fi",
     ],
     featuredImage: "/images/rooms/family-suite.avif",
-    gallery: ["/images/rooms/family-suite-private-pool.jpg"],
+    gallery: ["/images/rooms/family-suite.avif"],
   },
 
   {
@@ -84,10 +105,16 @@ export const rooms: Room[] = [
     shortDescription:
       "A spacious two-bedroom suite for an unhurried coastal stay.",
     description:
-      "With two bedrooms and two bathrooms, the Beach Suite offers generous space for families or groups looking to stay close to the ocean.",
+      "With two bedrooms and two bathrooms, the Beach Suite offers generous space for families or groups looking to stay close to the ocean and make the most of Diani's beachfront setting.",
     capacity: "Family / group accommodation",
     beds: "Two bedrooms",
     location: "Beachfront",
+    highlights: [
+      "Two bedrooms",
+      "Two bathrooms",
+      "Close to the beach",
+      "Generous space for families or groups",
+    ],
     amenities: [
       "Beachfront setting",
       "Two bedrooms",
@@ -96,6 +123,10 @@ export const rooms: Room[] = [
       "Wi-Fi",
     ],
     featuredImage: "/images/rooms/beach-suite.avif",
-    gallery: ["/images/rooms/beach-suite.jpg"],
+    gallery: ["/images/rooms/beach-suite.avif"],
   },
 ];
+
+export function getRoomBySlug(slug: string) {
+  return rooms.find((room) => room.slug === slug);
+}

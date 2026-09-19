@@ -5,7 +5,7 @@ export default function GalleryHero() {
   return (
     <section className="relative min-h-[62vh] overflow-hidden bg-[#082f49] text-[#f6f1e8]">
       <Image
-        src="/images/gallery/gallery-hero.avif"
+        src="/images/gallery/blue-marlin-gallery-04.avif"
         alt="Blue Marlin Beach Hotel in Diani Beach"
         fill
         priority

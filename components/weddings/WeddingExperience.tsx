@@ -46,7 +46,7 @@ export default function WeddingExperience() {
           <Reveal delay={0.1} y={30}>
             <div className="relative aspect-[4/5] overflow-hidden bg-[#f6f1e8]">
               <Image
-                src="/images/weddings/wedding-beach.avif"
+                src="/images/weddings/blue-marlin-wedding.avif"
                 alt="Wedding celebration beside the ocean at Blue Marlin Beach Hotel"
                 fill
                 className="object-cover transition-transform duration-700 hover:scale-[1.02]"

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { navigationItems } from "@/data/navigation";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -7,11 +8,22 @@ export default function Footer() {
       <div className="mx-auto max-w-[1400px] px-5 py-16 sm:px-8 lg:px-10 lg:py-20">
         <div className="grid gap-12 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
-            <p className="font-display text-4xl sm:text-5xl">Blue Marlin</p>
+            <div className="flex items-center gap-4">
+              <Image
+                src={"/images/blue-marlin-Logo.avif"}
+                alt="Main Blue Marlin Logo"
+                width={100}
+                height={45}
+                className="bg-white/90 rounded-2xl p-2"
+              />
+              <div className="flex flex-col">
+                <p className="font-display text-4xl sm:text-5xl">Blue Marlin</p>
 
-            <p className="mt-2 text-[10px] uppercase tracking-[0.28em] text-white/50">
-              Beach Hotel
-            </p>
+                <p className="mt-2 text-[10px] uppercase tracking-[0.28em] text-white/50">
+                  Beach Resort
+                </p>
+              </div>
+            </div>
 
             <p className="mt-7 max-w-sm text-sm leading-7 text-white/65">
               A boutique beachfront stay in Diani Beach, Kenya, surrounded by

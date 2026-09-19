@@ -5,7 +5,7 @@ export default function WeddingsHero() {
   return (
     <section className="relative min-h-[72vh] overflow-hidden bg-[#082f49] text-[#f6f1e8]">
       <Image
-        src="/images/weddings/weddings-hero.avif"
+        src="/images/weddings/blue-marlin-wedding-hero.jpg"
         alt="Beach wedding at Blue Marlin Beach Hotel"
         fill
         priority

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import RoomsHero from "@/components/rooms/RoomsHero";
 import RoomGrid from "@/components/rooms/RoomGrid";
+import BookingForm from "@/components/booking/BookingForm";
 
 export const metadata: Metadata = {
   title: "Rooms & Suites",
@@ -13,6 +14,7 @@ export default function RoomsPage() {
     <main>
       <RoomsHero />
       <RoomGrid />
+      <BookingForm />
     </main>
   );
 }

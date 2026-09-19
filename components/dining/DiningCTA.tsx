@@ -32,7 +32,7 @@ export default function DiningCTA() {
           </p>
 
           <a
-            href="https://www.bluemarlinbeachrestaurant.com/"
+            href="https://bluemerlintemplate.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-9 inline-flex border border-[#d8c3a5] bg-[#d8c3a5] px-7 py-4 text-[10px] font-medium uppercase tracking-[0.2em] text-[#082f49] transition-colors hover:bg-transparent hover:text-[#f6f1e8]"

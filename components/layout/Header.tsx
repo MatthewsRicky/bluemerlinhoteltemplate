@@ -31,7 +31,7 @@ export default function Header() {
               </span>
 
               <span className="mt-1 text-[9px] uppercase tracking-[0.3em] text-white/60">
-                Beach Resort
+                Beach Hotel
               </span>
             </div>
           </Link>

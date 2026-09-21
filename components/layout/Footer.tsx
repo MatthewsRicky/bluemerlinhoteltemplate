@@ -20,7 +20,7 @@ export default function Footer() {
                 <p className="font-display text-4xl sm:text-5xl">Blue Marlin</p>
 
                 <p className="mt-2 text-[10px] uppercase tracking-[0.28em] text-white/50">
-                  Beach Resort
+                  Beach Hotel
                 </p>
               </div>
             </div>

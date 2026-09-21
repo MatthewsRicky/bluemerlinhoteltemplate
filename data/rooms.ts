@@ -1,3 +1,5 @@
+import { roomGalleries } from "@/data/room-galleries";
+
 export type Room = {
   slug: string;
   name: string;
@@ -30,7 +32,7 @@ export const rooms: Room[] = [
     ],
     amenities: ["Sea view", "Private bathroom", "Air conditioning", "Wi-Fi"],
     featuredImage: "/images/rooms/seaview-standard.avif",
-    gallery: ["/images/rooms/seaview-standard.avif"],
+    gallery: roomGalleries["sea-view-standard"],
   },
 
   {
@@ -50,7 +52,7 @@ export const rooms: Room[] = [
     ],
     amenities: ["Sea view", "Private bathroom", "Air conditioning", "Wi-Fi"],
     featuredImage: "/images/rooms/sea-view-superior.avif",
-    gallery: ["/images/rooms/sea-view-superior.avif"],
+    gallery: roomGalleries["sea-view-superior"],
   },
 
   {
@@ -70,7 +72,7 @@ export const rooms: Room[] = [
     ],
     amenities: ["Sea view", "Private bathroom", "Air conditioning", "Wi-Fi"],
     featuredImage: "/images/rooms/sea-view-family.avif",
-    gallery: ["/images/rooms/sea-view-family.avif"],
+    gallery: roomGalleries["sea-view-family"],
   },
 
   {
@@ -96,7 +98,7 @@ export const rooms: Room[] = [
       "Wi-Fi",
     ],
     featuredImage: "/images/rooms/family-suite.avif",
-    gallery: ["/images/rooms/family-suite.avif"],
+    gallery: roomGalleries["family-suite-private-pool"],
   },
 
   {
@@ -123,7 +125,7 @@ export const rooms: Room[] = [
       "Wi-Fi",
     ],
     featuredImage: "/images/rooms/beach-suite.avif",
-    gallery: ["/images/rooms/beach-suite.avif"],
+    gallery: roomGalleries["beach-suite"],
   },
 ];
 

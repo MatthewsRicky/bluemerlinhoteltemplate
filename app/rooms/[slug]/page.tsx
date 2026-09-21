@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { rooms, getRoomBySlug } from "@/data/rooms";
 import RoomDetails from "@/components/rooms/RoomDetails";
+import RoomGallery from "@/components/rooms/RoomGallery";
 
 type RoomPageProps = {
   params: Promise<{
@@ -15,24 +15,9 @@ export function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({
-  params,
-}: RoomPageProps): Promise<Metadata> {
-  const { slug } = await params;
-  const room = getRoomBySlug(slug);
-
-  if (!room) {
-    return {};
-  }
-
-  return {
-    title: room.name,
-    description: room.shortDescription,
-  };
-}
-
 export default async function RoomPage({ params }: RoomPageProps) {
   const { slug } = await params;
+
   const room = getRoomBySlug(slug);
 
   if (!room) {
@@ -42,6 +27,7 @@ export default async function RoomPage({ params }: RoomPageProps) {
   return (
     <main>
       <RoomDetails room={room} />
+      <RoomGallery images={room.gallery} roomName={room.name} />
     </main>
   );
 }

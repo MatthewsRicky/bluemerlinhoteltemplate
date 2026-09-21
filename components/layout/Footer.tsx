@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-4">
               <Image
-                src={"/images/blue-marlin-Logo.avif"}
+                src={"/images/blue-marlin-logo.avif"}
                 alt="Main Blue Marlin Logo"
                 width={100}
                 height={45}

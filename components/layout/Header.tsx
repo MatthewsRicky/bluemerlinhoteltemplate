@@ -19,7 +19,7 @@ export default function Header() {
             className="flex gap-4 leading-none"
           >
             <Image
-              src={"/images/blue-marlin-Logo.avif"}
+              src={"/images/blue-marlin-logo.avif"}
               alt="Blue Marlin Logo"
               width={80}
               height={25}

@@ -20,7 +20,7 @@ export default function Header() {
           >
             <Image
               src={"/images/blue-marlin-Logo.avif"}
-              alt="Main Blue Marlin Logo"
+              alt="Blue Marlin Logo"
               width={80}
               height={25}
               className="bg-white/90 rounded-2xl p-2"

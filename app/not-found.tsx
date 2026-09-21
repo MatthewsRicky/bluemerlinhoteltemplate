@@ -15,8 +15,8 @@ export default function NotFound() {
         </h1>
 
         <p className="mx-auto mt-7 max-w-md text-sm leading-7 text-[#1d2529]/60">
-          The page you're looking for doesn't exist or may have moved. Let's get
-          you back to Diani Beach.
+          The page you&apos;re looking for doesn&apos;t exist or may have moved.
+          Let&apos;s get you back to Diani Beach.
         </p>
 
         <div className="mt-9 flex flex-col justify-center gap-3 sm:flex-row">

@@ -23,7 +23,7 @@ export default function Header() {
               alt="Blue Marlin Logo"
               width={80}
               height={25}
-              className="bg-white/90 rounded-2xl p-2"
+              className="bg-sky-200/90 rounded p-2"
             />
             <div className="flex flex-col">
               <span className="font-display text-2xl tracking-wide sm:text-3xl">

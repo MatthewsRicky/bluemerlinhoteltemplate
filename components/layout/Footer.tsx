@@ -14,7 +14,7 @@ export default function Footer() {
                 alt="Main Blue Marlin Logo"
                 width={100}
                 height={45}
-                className="bg-white/90 rounded-2xl p-2"
+                className="bg-sky-200/90 rounded p-2"
               />
               <div className="flex flex-col">
                 <p className="font-display text-4xl sm:text-5xl">Blue Marlin</p>

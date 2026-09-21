@@ -4,9 +4,12 @@ import ContactDetails from "@/components/contact/ContactDetails";
 import ContactForm from "@/components/contact/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact",
+  title: "Contact Blue Marlin Beach Hotel",
   description:
-    "Contact Blue Marlin Beach Hotel in Diani Beach, Kenya, for accommodation, weddings, dining, wellness and coastal experiences.",
+    "Contact Blue Marlin Beach Hotel in Diani Beach, Kenya, about accommodation, weddings, dining, wellness and coastal experiences.",
+  alternates: {
+    canonical: "/contact",
+  },
 };
 
 export default function ContactPage() {

@@ -3,9 +3,12 @@ import BookingForm from "@/components/booking/BookingForm";
 import BookingDetails from "@/components/booking/BookingDetails";
 
 export const metadata: Metadata = {
-  title: "Book Your Stay",
+  title: "Book Your Stay in Diani Beach",
   description:
-    "Send a booking request to Blue Marlin Beach Hotel in Diani Beach, Kenya, and plan your stay beside the Indian Ocean.",
+    "Send a booking request to Blue Marlin Beach Hotel and plan your stay beside the Indian Ocean in Diani Beach, Kenya.",
+  alternates: {
+    canonical: "/book",
+  },
 };
 
 export default function BookPage() {

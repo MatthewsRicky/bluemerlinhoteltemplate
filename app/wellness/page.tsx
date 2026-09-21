@@ -6,9 +6,12 @@ import Yoga from "@/components/wellness/Yoga";
 import WellnessCTA from "@/components/wellness/WellnessCTA";
 
 export const metadata: Metadata = {
-  title: "Wellness",
+  title: "Wellness, Spa & Yoga",
   description:
-    "Slow down at Blue Marlin Beach Hotel with spa treatments, massage, aromatherapy, fitness and yoga in Diani Beach.",
+    "Slow down at Blue Marlin Beach Hotel with spa treatments, massage, aromatherapy, steam, fitness and yoga beside the Kenyan coast.",
+  alternates: {
+    canonical: "/wellness",
+  },
 };
 
 export default function WellnessPage() {

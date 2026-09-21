@@ -3,9 +3,12 @@ import GalleryHero from "@/components/gallery/GalleryHero";
 import GalleryGrid from "@/components/gallery/GalleryGrid";
 
 export const metadata: Metadata = {
-  title: "Gallery",
+  title: "Hotel & Beach Gallery",
   description:
-    "Explore Blue Marlin Beach Hotel, its rooms, gardens, beachfront setting and life on the Diani coast.",
+    "Explore Blue Marlin Beach Hotel, its rooms, tropical surroundings, beachfront setting and life along the Diani coast.",
+  alternates: {
+    canonical: "/gallery",
+  },
 };
 
 export default function GalleryPage() {

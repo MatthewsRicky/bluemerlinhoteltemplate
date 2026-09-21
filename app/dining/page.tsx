@@ -5,9 +5,12 @@ import MenuHighlight from "@/components/dining/MenuHighlight";
 import DiningCTA from "@/components/dining/DiningCTA";
 
 export const metadata: Metadata = {
-  title: "Dining",
+  title: "Beachfront Dining in Diani Beach",
   description:
-    "Dine beside the Indian Ocean at Blue Marlin Beach Restaurant in Diani, with fresh seafood, coastal flavours and a relaxed beachfront setting.",
+    "Enjoy seafood, coastal flavours and relaxed beachfront dining at Blue Marlin Beach Restaurant beside the Indian Ocean in Diani Beach.",
+  alternates: {
+    canonical: "/dining",
+  },
 };
 
 export default function DiningPage() {

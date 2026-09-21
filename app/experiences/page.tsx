@@ -5,11 +5,13 @@ import Excursions from "@/components/experiences/Excursions";
 import ExperiencesCTA from "@/components/experiences/ExperiencesCTA";
 
 export const metadata: Metadata = {
-  title: "Experiences",
+  title: "Diani Beach Experiences & Activities",
   description:
-    "Discover water activities, coastal adventures, excursions and experiences around Diani Beach and Kenya's South Coast.",
+    "Discover water sports, diving, snorkelling, dhow excursions and coastal adventures around Diani Beach from Blue Marlin Beach Hotel.",
+  alternates: {
+    canonical: "/experiences",
+  },
 };
-
 export default function ExperiencesPage() {
   return (
     <main>

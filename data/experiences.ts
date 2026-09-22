@@ -2,6 +2,7 @@ export type Experience = {
   title: string;
   description: string;
   image: string;
+  href?: string;
 };
 
 export const waterActivities: Experience[] = [
@@ -10,6 +11,7 @@ export const waterActivities: Experience[] = [
     description:
       "Feel the energy of the Indian Ocean with kite surfing along the Diani coastline.",
     image: "/images/experiences/kite-surfing.avif",
+    href: "/kite-surfing",
   },
   {
     title: "Diving",

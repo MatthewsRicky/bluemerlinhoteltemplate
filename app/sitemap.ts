@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "",
     "/rooms",
     "/experiences",
+    "/kite-surfing",
     "/wellness",
     "/dining",
     "/weddings",
@@ -23,7 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified,
     changeFrequency: route === "" ? ("weekly" as const) : ("monthly" as const),
     priority:
-      route === "" ? 1 : route === "/rooms" || route === "/book" ? 0.9 : 0.7,
+      route === "" ? 1 : route === "/rooms" || route === "/book" || route ==="/kite-surfing" ? 0.9 : 0.7,
   }));
 
   const roomPages = rooms.map((room) => ({

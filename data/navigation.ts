@@ -17,6 +17,10 @@ export const navigationItems: NavigationItem[] = [
     href: "/experiences",
   },
   {
+    label: "Kite Surfing",
+    href: "/kite-surfing",
+  },
+  {
     label: "Wellness",
     href: "/wellness",
   },

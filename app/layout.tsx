@@ -7,6 +7,8 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import HotelStructuredData from "@/components/seo/HotelStructuredData";
 import { siteConfig } from "@/data/site";
+import WhatsAppButton from "@/components/ui/WhatsAppButton";
+import { hotelContact } from "@/data/contact";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
@@ -104,6 +106,14 @@ export default function RootLayout({
         <Header />
 
         {children}
+
+        <Header />
+        {children}
+        <WhatsAppButton
+          phone={hotelContact.whatsapp}
+          message="Hello Blue Marlin Beach Hotel, I would like to make an enquiry about staying at the hotel."
+        />
+        <Footer />
 
         <Footer />
       </body>
